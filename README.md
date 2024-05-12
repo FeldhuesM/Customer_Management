@@ -1,4 +1,4 @@
-#Kundenverwaltungskonsole
+Kundenverwaltungskonsole
 
 Dieses Projekt ist eine einfache Kundenverwaltungskonsole in C++. Es ermöglicht dem Benutzer, Kundeninformationen wie Name, E-Mail und Telefonnummer zu speichern, anzuzeigen, zu bearbeiten und zu löschen.  Die Hauptfunktionen des Projekts sind:  
 Kunden hinzufügen: Der Benutzer kann neue Kunden hinzufügen, indem er deren Namen, E-Mail und Telefonnummer eingibt. Diese Informationen werden in einem Vektor gespeichert.  
