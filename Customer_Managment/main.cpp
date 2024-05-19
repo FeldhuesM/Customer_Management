@@ -5,7 +5,7 @@
 #include <sstream>
 #include <fstream>
 
-// Funktion zum Speichern des Vektors in eine Datei
+
 void Save_Vector_To_File(const std::vector<std::string>& vec, const std::string& filename) {
     std::ofstream file(filename);
     if (file.is_open()) {
@@ -19,7 +19,7 @@ void Save_Vector_To_File(const std::vector<std::string>& vec, const std::string&
     }
 }
 
-// Funktion zum Laden des Vektors aus einer Datei
+
 std::vector<std::string> Load_Vector_From_File(const std::string& filename) {
     std::vector<std::string> vec;
     std::ifstream file(filename);
