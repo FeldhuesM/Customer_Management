@@ -1,4 +1,4 @@
-# Install script for directory: C:/Eigene Daten/Jetbrains/C++/New_hotel
+# Install script for directory: C:/EigeneDaten/Jetbrains/C++/Customer_Managment/Customer_Managment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Eigene Daten/Jetbrains/C++/New_hotel/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/EigeneDaten/Jetbrains/C++/Customer_Managment/Customer_Managment/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
