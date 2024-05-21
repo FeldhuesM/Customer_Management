@@ -5,11 +5,17 @@
 #include <fstream>
 using namespace std;
 
+<<<<<<< HEAD
 const int Data_Size_Per_Customer = 3;
 
 
 void Save_Vector_To_File(const vector<std::string>& vec, const string& filename) {
     ofstream file(filename);
+=======
+
+void Save_Vector_To_File(const std::vector<std::string>& vec, const std::string& filename) {
+    std::ofstream file(filename);
+>>>>>>> e2c209affedc57abede3ba6031ebab48c4f4e38d
     if (file.is_open()) {
         for (const string& data : vec) {
             file << data << endl;
@@ -21,9 +27,16 @@ void Save_Vector_To_File(const vector<std::string>& vec, const string& filename)
     }
 }
 
+<<<<<<< HEAD
 vector<std::string> Load_Vector_From_File(const string& filename) {
     vector<string> vec;
     ifstream file(filename);
+=======
+
+std::vector<std::string> Load_Vector_From_File(const std::string& filename) {
+    std::vector<std::string> vec;
+    std::ifstream file(filename);
+>>>>>>> e2c209affedc57abede3ba6031ebab48c4f4e38d
     if (file.is_open()) {
         string line;
         while (getline(file, line)) {
